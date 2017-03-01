@@ -1,0 +1,486 @@
+html {
+	font-family: 'Roboto Slab', serif;
+}
+
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+  height: 100%;
+  margin-top: 0px;
+}
+
+ul {
+	list-style: none;
+  position: relative;
+  float:left;
+  display:block;
+  left:22%;
+  margin: 2%;
+  padding: 0%;
+  overflow: hidden;
+  /* border: solid red 2px; ----- Used for spacing */
+  text-align: center;
+  top: 0%;
+  width:100%;
+}
+
+
+a > img {
+  color:black;
+  height:auto;
+  width: 40%;
+
+}
+
+li {
+	color: transparent;
+  position: relative;
+	font-size: 14.5px;
+	top: 8%;
+	display: block;
+	list-style: none;
+	text-align: right;
+	padding: 5px;
+  float:left;
+	
+}
+
+li a {
+	display: block;
+  color: black;
+  text-align: center;
+  padding: 25px;
+  padding-top: 10px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  transition: all 0.2s ease-out;
+
+}
+
+
+a:hover {
+	opacity:;
+}
+
+.headroom {
+    will-change: transform;
+    transition: transform 200ms linear;
+}
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+
+/*
+*
+*
+* Start of Home Section
+*
+*
+*/
+
+.home-container {
+	/* border: solid red 2px; ----- Used for spacing */
+	clear: both;
+}
+
+#home {
+	background: url('file:///Users/PatrickLoughrey/Documents/Portfolio/Images/white-desk.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 100%;
+	width: 100%;
+	top: 0%;
+	left: 0%;
+	right: 0%;
+}
+
+.content-inner {
+	margin: 2%;
+	padding: 5%;
+	text-align: center;
+	padding-top: 5%;
+  overflow:hidden;
+
+}
+
+p {
+	display: block;
+    /* color: rgba(255,255,255,.8); */
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+
+.name {
+	font-size: 62px;
+	font-weight: 400;
+	padding-bottom: 0;
+	margin-bottom: 0;
+  animation: slideDown 2s;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-400%);
+  }
+  50%{
+    transform: translateY(8%);
+  }
+  65%{
+    transform: translateY(-4%);
+  }
+  80%{
+    transform: translateY(4%);
+  }
+  95%{
+    transform: translateY(-2%);
+  }     
+  100% {
+    transform: translateY(0%);
+  }   
+}
+}
+
+
+.description {
+	font-size: 16px;
+	font-weight: 100;
+	font-family: 'Roboto Slab', serif;
+
+}
+
+#fadeIn {
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}  
+}
+
+/*
+.description:after{
+	display:block;
+    clear:both;
+    content : "";
+    position: relative;
+    left    : 0;
+    bottom  : 0;
+    max-width:250px;
+    height  : 1px;
+    width   : 8%;
+    border-bottom:2px solid #bfa67a;
+    margin:0 auto;
+    padding:8px 0px;
+}
+*/
+
+p > a {
+	border: 1px solid black;
+	border-radius: 3px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 45px;
+	padding-right: 45px;
+	text-decoration: none;
+  color: black;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: lighter;
+	font-size: 20px;
+}
+
+p > a:hover {
+  background-color: black;
+  color: white;
+
+}
+
+.resume {
+	padding: 15px;
+	margin-bottom: 100px;
+}
+
+/*  
+*
+*
+* Start of Process Section CSS
+*
+*/
+
+#process {
+  background:#f8f8f8; 
+  overflow:hidden;
+  background-size:cover;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom:0%;
+}
+
+.column {
+  text-align: center;
+  margin-top: 5%;
+  padding: 5%;
+}
+
+.column > h1 {
+  font-weight: normal;
+  font-size: 25px;
+  padding:1%;
+  margin:1%;
+}
+
+.process-line {
+  background-color: black;
+  width:65px;
+  height:1px;
+  margin:auto;
+}
+
+.row-intro {
+  width: 100%;
+}
+
+.row-box {
+  width: 100%;
+  margin-bottom: 8%;
+}
+
+.quote {
+  font-family: Georgia;
+  font-style: italic;
+  color: gray;
+  padding:3%;
+  width: 50%;
+  margin:auto;
+  font-size: 15px;
+}
+
+.col-sm-3 {
+  display:inline-block;
+  /* border: 2px solid blue; ******* for positioning */
+  width:260px;
+  height: 400px;
+  background-color: white;
+  margin:2%;
+  align-items: center;
+  box-shadow: .25px .25px .25px .25px #888;
+}
+
+.col-sm-3:hover {
+  box-shadow: 4px 4px 4px 4px #888;
+}
+
+.iconbox {
+  text-align: center;
+}
+
+.iconbox-icon > img {
+  text-align: center;
+  padding: 2%;
+  width:48%;
+  height:48%;
+  float:center;
+}
+
+.iconbox-text > h4 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.iconbox-text > p {
+  font-size: 12px;
+  font-family: Georgia;
+  color: gray;
+  width: 65%;
+  text-align: center;
+  margin-left: 17%;
+}
+
+#mvc {
+  width:50%;
+  height:50%;
+}
+
+#authenticate {
+  width: 53%;
+  height:53%;
+}
+
+#seo {
+  width:53%;
+  height:53%;
+}
+
+.item {
+	display: inline-block;
+	background-color: transparent;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 35px;
+}
+
+.item > a > i {
+	display: inline-block;
+	font-size: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-top: 5px;
+
+}
+
+.symbol-inner {
+	margin-left: 125px;
+	margin-right: 125px;
+	margin-top: 10px;
+	margin-bottom: px;
+	padding: 25px;
+	
+}
+
+.symbol {
+	display: inline-block;
+	background-color: transparent;
+	padding-right: 18px;
+	padding-left: 18px;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin: 18px;
+}
+
+.fa {
+	color: black;
+	text-align: center;
+}
+
+.fa:hover {
+	color:white;
+
+}
+
+
+/*
+*
+*
+* Start of Devicon-Scroller Section
+*
+*
+*
+*/
+
+#skills {
+  width: 100%;
+  background-color: #333333;
+
+}
+
+.autoplay {
+    overflow:auto;
+    white-space: nowrap;
+}
+
+.autoplay > div {
+    display:inline-block;
+    text-align: center;
+    padding: 4%;
+    margin: 2%;
+
+}
+
+.autoplay > div > i {
+    font-size: 85px;
+}
+
+/*
+*
+*
+* Start of About Section
+*
+*
+*
+*/
+
+
+#about {
+	background-size: cover;
+}
+
+.about-container {
+	/* border: solid red 2px; ---- used for styling */
+	background-color: white;
+	padding-top: 100px;
+	padding-bottom: 75px;
+}
+
+.title {
+	font-size: 50px;
+	font-weight: bolder;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	color: black;
+	font-family:'Arsenal', sans-serif;
+	margin-top: 40px;
+	padding-top: 18px;
+}
+
+
+
+.intro {
+	font-family:'Lora', serif;
+	font-size: 14px;
+	font-weight: lighter;
+	margin-top: 0;
+	margin-left: 120px;
+	margin-right: 120px;
+	margin-bottom: 0;
+	color: #222222;
+	line-height: 1.42857143;
+  font-color: #8c9398;
+}
+
+#intro-name, #intro-roles {
+	font-size: 25px;
+	padding: 0;
+}
+
+#intro-roles {
+	padding-bottom: 25px;
+}
+
+.intro-line {
+  background-color: black;
+  width:75px;
+  height:1.5px;
+  margin:auto;
+}
+
+#intro-bio {
+	padding-bottom: 15px;
+}
+
+#intro-about {
+	padding-bottom: 15px;
+}
+
+#intro-quote {
+	padding-bottom: 15px;
+}
+
+
+
+

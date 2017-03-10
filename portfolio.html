@@ -16,10 +16,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"> </script>
 	<script type="text/javascript" src="slick/slick.min.js"></script>
-	<script type="text/javascript" src="js/portfolio.js"> </script>
-	<script type="text/javascript" src="./node_modules/headroom.js/dist/headroom.js"> </script>
-	<script type="text/javascript" src="./node_modules/headroom.js/dist/jQuery.headroom.js"> </script>
+	<script src="./js/portfolio.js"> </script>
+
 </head>
 
 <body>
@@ -27,8 +27,8 @@
 	<nav class="navbar navbar-default navbar-fixed-top">
 
 		<div class="container"> <!-- Container -->
-			<div class="header table">
-				<ul class="navbar-center">
+			<div class="table">
+				<ul class="header navbar-center">
 					<li>
 						<a class="list-1" href="#home"> HOME </a>
 					</li>
@@ -64,7 +64,7 @@
 				<div class="item" id="github"> <a href="https://github.com/patrickloughrey"> <i class="fa fa-github" style="font-size:34px"></i> </a> </div>
 				<div class="item" id="linkedin"> <a href="https://www.linkedin.com/in/patrick-loughrey-94b85a112?trk=nav_responsive_tab_profile"> <i class="fa fa-linkedin" style="font-size:34px"></i> </a> </div>
 				<div class="item" id="twitter"> <a href="https://twitter.com/RU_Patrick001"> <i class="fa fa-twitter" style="font-size:34px"></i> </a> </div>
-				<p class="resume"> <a href=""> RESUME </a> </p>
+				<p class="resume"> <a href="https://drive.google.com/file/d/0B-zRbWcRiY-fa2NMZXhCU1N6QnM/view"> RESUME </a> </p>
 			</div>
 		</div>
 	</section>
@@ -76,23 +76,22 @@
 		<div class="about-container">
 		<div class="row">
 			<div class="header-intro">
-				<p class="intro" id="intro-name"> HEY! I'M <strong> PATRICK LOUGHREY </strong>. </p>
-				<p class="intro" id="intro-roles"> I AM A <strong> SOFTWARE ENGINEER </strong> AND <strong> FULL STACK WEB DEVELOPER </strong>. </p>
+				<p class="intro intro-animated" id="intro-name"> HEY! I'M <strong> PATRICK LOUGHREY </strong>. </p>
+				<p class="intro intro-animated" id="intro-roles"> I AM A <strong> SOFTWARE ENGINEER </strong> AND <strong> FULL STACK WEB DEVELOPER </strong>. </p>
 				<div class="intro-line"> </div>
 				<br>
 				<br>
-				<p class="intro" id="intro-about"> I am a coffee-drinking full stack web developer & software engineer based out of New Jersey.
+				<p class="intro animated" id="intro-about"> I am a coffee-drinking full stack web developer & software engineer based out of New Jersey.
 
 
-				I graduated from Rutgers University with a Bachelors in Computer Science. I am also currently in an intensive 24-week Rutgers Coding Bootcamp which has taught me a wealth of client-side and server-side concepts. A few of the languages and skills I have acquired are in the slick scroller above. </p>
+				I am graduating soon from Rutgers University with a Bachelors in Computer Science. I am also currently in an intensive 24-week Rutgers Coding Bootcamp which has taught me a wealth of client-side and server-side programming languages & technologies. A few of the languages and skills I am comfortable with are in the scroller below. I developed this website from scratch without using Bootstrap or any type of template design. </p>
 
 				<br>
 
-				<p class="intro" id="intro-bio"> Before I pursued Computer Science and became a full stack web developer, I was a personal trainer at a few gyms in Central Jersey. Along with web development, I will always have a passion for weight-training, various cardiovascular training, and calisthenics. I am also devoted NY Knicks, NY Yankees, and NY Giants fan. Drop me a line at the bottom of the page if you want to get in touch, have a question, or want to talk dirt about the Knicks. </p>
+				<p class="intro animated" id="intro-bio"> Before I started coding, I was a personal trainer at a few gyms in New Jersey. Along with web development, I will always be a fitness junkie - from weight-lifting to cardio to calisthenics. I am also a devoted New York Knicks, New York Yankees, and New York Giants fan. Send me a message at the bottom of the page if you want to get in touch, have a question, or want to talk Knicks. </p>
 
 				<!--
-				<p class="intro" id="intro-quote"> "Technology is nothing. What’s important is that you have a faith in people, that they’re basically good and smart, and if you give them tools, they’ll do wonderful things with them." 
-										-Steve Jobs
+				<p class="intro" id="intro-quote"> 
 				</p> -->
 
 			</div>
@@ -122,65 +121,147 @@
 
 	</section>
 
-	<!-- Process Section -->
-	<!--
-	<section id="process">
-		<div class="container">
-			<div class="row-intro">
-				<div class="column">
-						<h1> MY PROCESS </h1>
-						<div class="process-line"> </div>
-						<p class="quote"> There are really three parts to the creative process. First there is inspiration, then there is the execution, and finally there is the release. Believe in the process. </p>
-						<div class="process-line"> </div>
-				</div>
+
+	<!-- Portfolio Section -->
+	<section id="portfolio">
+			<div class="portfolio-container">
+
+					<div class="portfolio-row">
+							<div class="portfolio-title">
+									<h1> LATEST WORKS </h1>
+									<div class="portfolio-line"> </div>
+							</div>
+					</div>
+
+					<div class="portfolio-row">
+							<div class="portfolio-col">
+									<div class="project-img">
+											<img src="">
+									</div>
+							</div>
+
+							<div class="portfolio-col">
+									<div class="project-img">
+
+									</div>
+							</div>
+
+							<div class="portfolio-col">
+									<div class="project-img">
+											<img src="">
+									</div>
+							</div>
+					</div>
+
 			</div>
+	</section>
 
-			<div class="row-box">
-				<div class="col-sm-3">
-						<div class="iconbox">
-								<div class="iconbox-icon"> <img src="./images/mvc.png" id="mvc"> </div>
-								<div class="iconbox-text"> 
-										<h4> <strong>M</strong>odel <strong>V</strong>iew <strong>C</strong>ontroller </h4>
-										<p> This organized and efficient design pattern puts emphasis on the model, which deals with server-side logic; the view, which deals with the web application display; and the controller, which acts as the middleware between the model and view.</p>
-								</div>
+
+	<!-- Contact Section -->
+	
+	<section id="contact">
+			<div class="contact-container">
+
+				<div class="row-heading">
+						<div class="col-md-6">
+							<h2> CONTACT ME </h2>
+							<div class="contact-after"> </div>
 						</div>
 				</div>
-				<div class="col-sm-3">
-						<div class="iconbox">
-								<div class="iconbox-icon"> <img src="./images/authenticate.png" id="authenticate"> </div>
-								<div class="iconbox-text"> 
-										<h4> User Authentication </h4>
-										<p> Sending a server authentication credentials from a client is a very sensitive and vulnerable situation.
-										We, as developers, must continuously be improving our basic HTTP authentication mechanisms. </p>
+
+				<div class="row">
+					<div class="col-md-4">
+							<!-- Address -->
+							<div class="contact-item">
+								<div class="contact-icon">
+										<i class="contact-img"> <img src="images/address.png"> </i>
 								</div>
+								<h6> ADDRESS </h6>
+								<p> New Jersey,
+										<br>
+										Joyce Kilmer Avenue, Piscataway 08854
+								</p>
+							</div>
+
+						<!-- Call Me -->
+						<div class="contact-item">
+							<div class="contact-icon">
+									<i class="contact-img"> <img src="images/call.png"> </i>
+							</div>
+							<h6> CALL ME </h6>
+							<p> +1 848 299 6673 </p>
 						</div>
-				</div>
-				<div class="col-sm-3">
-						<div class="iconbox">
-								<div class="iconbox-icon"> <img src="./images/app.png"> </div>
-								<div class="iconbox-text"> 
-										<h4> Mobile Optimization </h4>
-										<p> Building a good foundation is critical for a successful web application. One of the most vital
-										aspects of a good foundation is the ability of your application to reformat itself. Mobile is the future, you might as well become a part of it. </p>
-								</div>
+
+						<!-- Email Me -->
+						<div class="contact-item">
+							<div class="contact-icon">
+									<i class="contact-img"> <img src="images/email.png"> </i>
+							</div>
+							<h6> EMAIL ME </h6>
+							<p> pgl19@scarletmail.rutgers.edu </p>
 						</div>
-				</div>
-				<div class="col-sm-3">
-						<div class="iconbox">
-								<div class="iconbox-icon"> <img src="./images/seo.png" id="seo"> </div>
-								<div class="iconbox-text"> 
-										<h4> <strong>S</strong>earch <strong>E</strong>ngine <strong>O</strong>ptimation </h4>
-										<p> Your web applicaton is useless unless the people who are looking for it can find it.
-										Optimizing your PageRank on Google must be a priority. Directly drive more traffic towards your webpage
-										so that search engines can easily find you. </p>
-								</div>
-						</div>
-				</div>
+
+				</div> <!-- End of column -->
+
+					<!-- Form -->
+				<div class="col-md-8">
+            <form id="contact-form" action="#">
+
+              <div class="row contact-row">
+                <div class="col-md-6 contact-name">
+                  <input name="name" id="name" type="text" placeholder="Name">
+                </div>
+                <div class="col-md-6 contact-email">
+                  <input name="mail" id="mail" type="email" placeholder="Email">
+                </div>
+              </div>
+
+              <input name="subject" id="subject" type="text" placeholder="Subject"> 
+              <textarea name="comment" id="comment" placeholder="Message"></textarea>
+              <input type="submit" class="btn btn-lg btn-color btn-submit" value="Send Message" id="submit-message">
+              <div id="msg" class="message"></div>
+            </form>
+        </div> <!-- end col -->
+
+
+			</div> <!-- End of row -->
+
+		</div> <!-- Container -->
+
+	</section>
+
+
+	<!-- Google Maps Section -->
+	<section id="google-map">
+
+    	<div id="map"> </div>
+
+	</section>
+
+
+	<!-- Footer -->
+	<footer>
+			<div class="footer-container">
+					<div class="footer-row">
+							
+							<div class="footer-social">
+		              <a href="https://www.instagram.com/pat_loughrey/?hl=en"><i class="fa fa-instagram" id="footer"></i></a>
+		              <a href="https://twitter.com/RU_Patrick001"><i class="fa fa-twitter" id="footer"></i></a>
+		              <a href="https://github.com/patrickloughrey"><i class="fa fa-github" id="footer"></i></a>
+		              <a href="https://www.linkedin.com/in/patrick-loughrey-94b85a112?trk=nav_responsive_tab_profile"><i class="fa fa-linkedin" id="footer"></i></a>
+            	</div> 
+
+            	<div class="copyright text-center">
+              		<p> ©2017 PATRICK LOUGHREY, ALL RIGHTS RESERVED  <!--  |    DEVELOPMENT BY PATRICK LOUGHREY --> </p>
+            	</div>
+
+					</div>
 			</div>
+	</footer>
 
-		</div>
-	</section> -->
-
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0Xn_oipDWNv8SY0asx35dN-OL_t1-naw&callback=initMap">
+  </script>
 
 </body>
 

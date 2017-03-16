@@ -159,7 +159,7 @@ p {
 }
 
 #fadeIn {
-  animation: fadeIn 5s;
+  animation: fadeIn 6s;
 }
 
 @keyframes fadeIn {
@@ -386,9 +386,9 @@ p > a:hover {
 
 #portfolio {
   width:100%;
-  height:700px;
-  /*background-color: #edeeef;*/
-  background-color: #333333;
+  height:1200px;
+  background-color: #edeeef;
+  /*background-color: #333333;*/
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden; 
@@ -409,6 +409,7 @@ p > a:hover {
   font-size: 30px;
 }
 
+
 .portfolio-quote > p {
   font-family:'Lora', serif;
   font-size: 13px;
@@ -428,8 +429,220 @@ p > a:hover {
   content: "";
   display: block;
   width: 54px;
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid black;
   margin: 15px auto 15px;
+}
+
+.portfolio-row {
+  /* border:1px solid blue; ****  Used for spacing */
+  width:100%;
+  text-align:center;
+  margin-top:8%;
+}
+
+.portfolio-col {
+  border: 2px solid black;
+  display: inline-block;
+  height: 225px;
+  width: 275px;
+  padding:5%;
+  margin:.5%;
+  overflow:hidden;
+  align-items: center;
+  margin-bottom:1%;
+}
+
+#city-crawler {
+  background:url('./Images/city-crawler.png');
+  background-position: center;
+  background-size: cover;
+  position:relative;
+}
+
+#city-crawler:after {
+    content:'';
+    color:#fff;
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.8);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+#city-crawler:hover:after {
+    opacity:1;
+    cursor:pointer;
+}
+
+#city-crawler:hover button {
+  opacity: 1;
+}
+
+#yankees {
+  background:url('./Images/yankees.png');
+  background-position: center;
+  background-size: cover;
+  position:relative;
+}
+
+#yankees:after {
+    content:'';
+    color:#fff;
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.8);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+#yankees:hover:after {
+    opacity:1;
+    cursor:pointer;
+}
+
+button {
+  position: absolute;
+  color:#fff;
+  font-weight:bolder;
+  font-size:18px;
+  left:28%;
+  top: 42%;
+  padding-left:35px;
+  padding-right:35px;
+  padding-top:15px;
+  padding-bottom:15px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+  border:3px solid #fff;
+  background-color:transparent;
+  z-index: 3;
+}
+
+button:hover {
+  background-color:#bfa67a;
+  border:1px solid white;
+  cursor:pointer;
+}
+
+#yankees:hover button {
+  opacity: 1;
+}
+
+#liri-node {
+  background:url('./Images/liri.png');
+  background-position: left;
+  background-size: cover;
+  position:relative;
+}
+
+#liri-node:after {
+    content:'';
+    color:#fff;
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.8);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+#liri-node:hover:after {
+    opacity:1;
+    cursor:pointer;
+}
+
+#liri-node:hover button {
+  opacity: 1;
+}
+
+#homebound {
+  background:url('./Images/homebound.png');
+  background-position: center;
+  background-size: 125% 98%;
+  position:relative;
+}
+
+#homebound:after {
+    content:'';
+    color:#fff;
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.8);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+#homebound:hover:after {
+    opacity:1;
+    cursor:pointer;
+}
+
+#homebound:hover button {
+  opacity: 1;
+}
+
+#amazon {
+  background:url('./Images/amazon.png');
+  background-position: center;
+  background-size: cover;
+  position:relative;
+}
+
+#amazon:after {
+    content:'';
+    color:#fff;
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.8);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+#amazon:hover:after {
+    opacity:1;
+    cursor:pointer;
+}
+
+#amazon:hover button {
+  opacity: 1;
+}
+
+#nytimes {
+  background:url('./Images/nytimes.png');
+  background-position: center;
+  background-size: 107% 100%;
+  position:relative;
+}
+
+#nytimes:after {
+    content:'';
+    color:#fff;
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.8);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+#nytimes:hover:after {
+    opacity:1;
+    cursor:pointer;
+}
+
+#nytimes:hover button {
+  opacity: 1;
 }
 
 /*

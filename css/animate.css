@@ -803,7 +803,7 @@ Copyright (c) 2015 Daniel Eden
 
 .bounceInLeft {
   -webkit-animation-name: bounceInLeft;
-  animation-name: bounceInLeft;
+  
 }
 
 @-webkit-keyframes bounceInRight {

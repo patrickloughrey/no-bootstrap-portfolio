@@ -65,6 +65,7 @@ a:hover {
 
 
 .home-container {
+	/* border: solid red 2px; ----- Used for spacing */
 	clear: both;
 }
 
@@ -220,7 +221,6 @@ p > a:hover {
 }
 
 .about-container {
-	/* border: solid red 2px; ---- used for styling */
 	background-color: white;
 	padding-top: 125px;
 	padding-bottom: 75px;
@@ -281,16 +281,24 @@ p > a:hover {
   }
 }
 
-#intro-name, #intro-roles {
+.intro-name, .intro-roles {
 	font-size: 25px;
 	padding: 0;
+  font-family:'Lora', serif;
+  margin-top: 0;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 0;
+  color: #222222;
+  line-height: 1.42857143;
+  font-color: #8c9398;
 }
 
 .intro-animated {
   animation: slideInLeft 2s;
 }
 
-#intro-roles {
+.intro-roles {
 	padding-bottom: 25px;
 }
 
@@ -367,7 +375,6 @@ p > a:hover {
   width:100%;
   height:1200px;
   background-color: #edeeef;
-  /*background-color: #333333;*/
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden; 
@@ -383,7 +390,6 @@ p > a:hover {
 
 .portfolio-title > h1 {
   font-weight: normal;
-  /*color:white;*/
   color:black;
   font-size: 30px;
 }
@@ -397,11 +403,9 @@ p > a:hover {
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 2%;
-  /*color: white;*/
   color:black;
   line-height: 1.42857143;
   font-color: #8c9398;
-  /*font-style: italic;*/
 }
 
 .portfolio-line {
@@ -624,6 +628,8 @@ button:hover {
   opacity: 1;
 }
 
+
+
 /*
 *
 *
@@ -641,6 +647,8 @@ button:hover {
   margin-top:10%;
 }
 
+
+
 /*
 *
 *
@@ -648,6 +656,7 @@ button:hover {
 *
 *
 */
+
 
 #contact {
   overflow: hidden;
@@ -657,10 +666,9 @@ button:hover {
 }
 
 .contact-container {
-  margin-bottom: 10%;
+  margin-bottom: 3%;
   background-color: white;
-  padding-top: 100px;
-  padding-bottom: 75px;
+  padding-top: 10%;
 }
 
 .col-md-6 {
@@ -668,11 +676,11 @@ button:hover {
 }
 
 .col-md-6 > h2 {
-  font-size: 25px;
+  font-size: 28px;
   padding: 0;
+  font-weight:normal;
   margin-left: 15%;
   margin-right: 15%;
-  letter-spacing: 0.05em;
 }
 
 .contact-after {
@@ -766,11 +774,13 @@ button:hover {
 
 /***** Form *******/
 
-.gmap {
-  position: relative;
-  width: 100%;
-  height: 450px;
+#contact-form {
+  display: inline-block;
+  text-align: center;
+  width:50%;
+  margin-top:4%;
 }
+
 
 #contact-form .message {
   height: 50px;
@@ -785,15 +795,19 @@ button:hover {
 }
 
 .contact-name {
-  width:46%;
-  float:left;
-  margin-right:4%;
+  width:100%;
 }
 
 .contact-email {
-  width:46%;
-  float:left;
-  margin-left:4%;
+  width:100%;
+}
+
+#subject {
+  width:100%;
+}
+
+#comment {
+  width:100%;
 }
 
 #contact-form .message.error {
@@ -806,14 +820,10 @@ button:hover {
 
 .col-md-8 {
   margin-top: 4%;
-  margin-left: 4%;
-  margin-right: 4%;
-  width: 50%;
-  float:left;
-  position: relative;
+  margin-right:8%;
+  width: 100%;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  text-align: center;
 }
 
 input[type="text"],
@@ -917,6 +927,7 @@ select::-ms-expand {
   color: #fff;
   background-color: #bfa67a;
   backface-visibility: hidden;
+  float:left;
 }
 
 .btn.btn-color {

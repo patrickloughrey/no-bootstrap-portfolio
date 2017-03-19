@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
 
-  console.log("This executes");
+  /* console.log("This executes"); */
   $('.autoplay').slick({
       slidesToShow: 5,
       slidesToScroll: 1,
@@ -11,6 +11,21 @@ $(document).ready(function() {
       arrows:false
 
   });
+
+});
+
+
+/* Delay Animate.css() */
+$(window).on("scroll", function() {
+
+    var top = $(document).scrollTop();
+
+    if(top == 600) {
+      $("p.intro-name").toggleClass("intro-animated");
+      $("p.intro-roles").toggleClass("intro-animated");
+      $("p.intro").toggleClass("animated");
+
+    }   
 
 });
 

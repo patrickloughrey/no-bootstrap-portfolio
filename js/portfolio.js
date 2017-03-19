@@ -7,7 +7,7 @@ $(document).ready(function() {
       slidesToShow: 5,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 1500,
+      autoplaySpeed: 2000,
       arrows:false
 
   });
@@ -15,7 +15,7 @@ $(document).ready(function() {
 });
 
 
-/* Delay Animate.css() */
+/* Delay Animation */
 $(window).on("scroll", function() {
 
     var top = $(document).scrollTop();

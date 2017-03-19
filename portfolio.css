@@ -9,23 +9,18 @@ body {
   height: 100%;
   width:100%;
   overflow-x: hidden;
-} 
+}
 
 ul {
 	list-style: none;
-  position: relative;
   float:left;
-  display:block;
-  left:23%;
-  margin: 2%;
   padding: 0%;
   overflow: hidden;
-  /* border: solid red 2px; ----- Used for spacing */
   text-align: center;
   top: 0%;
   width:100%;
-}
 
+}
 
 a > img {
   color:black;
@@ -36,45 +31,29 @@ a > img {
 
 li {
 	color: transparent;
-  position: relative;
 	font-size: 14.5px;
-	top: 8%;
-	display: block;
+	top: 5%;
+	display: inline-block;
 	list-style: none;
-	text-align: right;
-	padding: 5px;
-  float:left;
-	
+	padding: 3%;
+
 }
 
 li a {
-	display: block;
+	display: inline-block;
   color: black;
-  text-align: center;
-  padding: 25px;
-  padding-top: 10px;
   text-decoration: none;
   letter-spacing: 1px;
   font-weight: lighter;
   transition: all 0.2s ease-out;
-
 }
 
 
 a:hover {
 	color:white;
+  cursor:pointer;
 }
 
-.headroom {
-    will-change: transform;
-    transition: transform 200ms linear;
-}
-.headroom--pinned {
-    transform: translateY(0%);
-}
-.headroom--unpinned {
-    transform: translateY(-100%);
-}
 
 /*
 *
@@ -84,8 +63,8 @@ a:hover {
 *
 */
 
+
 .home-container {
-	/* border: solid red 2px; ----- Used for spacing */
 	clear: both;
 }
 

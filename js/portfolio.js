@@ -18,14 +18,14 @@ $(document).ready(function() {
 /* Delay Animation */
 $(window).on("scroll", function() {
 
-    var top = $(document).scrollTop();
+    /* var top = $(document).scrollTop();
 
     if(top == 600) {
       $("p.intro-name").toggleClass("intro-animated");
       $("p.intro-roles").toggleClass("intro-animated");
       $("p.intro").toggleClass("animated");
 
-    }   
+    } */
 
 });
 

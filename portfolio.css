@@ -91,7 +91,6 @@ a:hover {
 
 p {
 	display: block;
-    /* color: rgba(255,255,255,.8); */
     color: black;
     text-align: center;
     text-decoration: none;
@@ -169,8 +168,9 @@ p > a:hover {
 }
 
 .resume {
-	padding: 15px;
-	margin-bottom: 100px;
+	padding: 1%;
+  padding-bottom: 5%;
+	margin-bottom: 14%;
 }
 
 .item {

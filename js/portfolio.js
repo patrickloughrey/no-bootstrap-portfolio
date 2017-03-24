@@ -18,14 +18,15 @@ $(document).ready(function() {
 /* Delay Animation */
 $(window).on("scroll", function() {
 
-    /* var top = $(document).scrollTop();
+     var top = $(document).scrollTop();
+     console.log(top);
 
-    if(top == 600) {
-      $("p.intro-name").toggleClass("intro-animated");
-      $("p.intro-roles").toggleClass("intro-animated");
-      $("p.intro").toggleClass("animated");
+    if(top > 500) {
+      $("p.intro-name").addClass("intro-animated");
+      $("p.intro-roles").addClass("intro-animated");
+      $("p.intro").addClass("animated");
 
-    } */
+    } 
 
 });
 

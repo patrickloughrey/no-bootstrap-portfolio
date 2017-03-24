@@ -21,7 +21,7 @@ $(window).on("scroll", function() {
      var top = $(document).scrollTop();
      console.log(top);
 
-    if(top > 400) {
+    if(top > 300) {
       $("p.intro-name").addClass("intro-animated");
       $("p.intro-roles").addClass("intro-animated");
       $("p.intro").addClass("animated");
